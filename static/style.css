@@ -1,0 +1,62 @@
+#particles-js{
+    background-color: white;
+    position: relative;
+    width: 100%;
+    height: 100%;
+
+}
+
+html {
+    font-family: "Poppins", sans-serif;
+}
+
+
+body {
+    margin-top: -60px;
+
+}
+
+
+div {
+    text-align: center;
+
+
+}
+
+div button {
+    font-family: "Poppins";
+    font-weight: 500;
+    width: 200px;
+    border: 3px solid white;
+    outline: none;
+    color: white;
+    background-color: #6B63D3;
+    border-radius: 50px;
+    height: 50px;
+    margin-top: 0px;
+    text-align: center;
+    position: relative;
+    top: 400px;
+}
+
+
+.title {
+
+    font-family: "Poppins";
+    font-weight: 700;
+    margin: 0;
+    width: 100%;
+    text-align: center;
+    font-size: 150px;
+    position: absolute;
+    top: 100px;
+    color: #3E0F71;
+
+}
+
+button:hover {
+    background-color: #FFD8FF;
+    color: black;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+
