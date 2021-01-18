@@ -60,3 +60,50 @@ button:hover {
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
   }
 
+.fade-left {
+    animation: fadeIn 4s;
+}
+
+@keyframes fadeIn {
+    0% {
+       opacity: 0;
+       transform: translateX(200px);
+    }
+    100% {
+       opacity: 1;
+       transform: translateX(0);
+    }
+  } 
+  
+  .fade-right {
+    animation: fadeInRight 4s;
+  }
+  
+  @keyframes fadeInRight {
+    0% {
+       opacity: 0;
+       transform: translateX(-200px);
+    }
+    100% {
+       opacity: 1;
+       transform: translateX(0);
+    }
+  } 
+  
+  .fade-Up {
+    animation: fadeUp 5s;
+  }
+  
+  @keyframes fadeUp {
+    0% {
+       opacity: 0;
+       transform: translateY(100px);
+    }
+    100% {
+       opacity: 1;
+       transform: translateY(0);
+    }
+  } 
+  
+
+

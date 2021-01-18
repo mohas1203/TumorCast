@@ -79,3 +79,34 @@ section {
   box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
 }
 
+
+.fade-left {
+  animation: fadeIn 6s;
+}
+
+@keyframes fadeIn {
+  0% {
+     opacity: 0;
+     transform: translateX(200px);
+  }
+  100% {
+     opacity: 1;
+     transform: translateX(0);
+  }
+} 
+
+.fade-right {
+  animation: fadeInRight 6s;
+}
+
+@keyframes fadeInRight {
+  0% {
+     opacity: 0;
+     transform: translateX(-200px);
+  }
+  100% {
+     opacity: 1;
+     transform: translateX(0);
+  }
+} 
+
