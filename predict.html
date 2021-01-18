@@ -5,22 +5,16 @@
     <title>Predict</title>
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;1,200;1,600&display=swap" rel="stylesheet">
-    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="../static/predictstyles.css">
     <script src="https://unpkg.com/@tensorflow/tfjs"></script>
     <script src="https://unpkg.com/@tensorflow/tfjs-automl"></script>
-    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script src="../static/particles.js"></script>
     <script src="../static/predict.js"></script>
 
 </head>
 <body>
     <section class="center">
-        <div class="predictSection" data-aos="fade-left" 
-        data-aos-duration="3000"
-        data-aos-offset="500"
-        data-aos-easing="ease-in-out"
-        data-aos-delay="50">
+        <div class="predictSection">
             <h1 class="title">Choose Image</h1>
             <label for="file-field" class="custom-file-upload">
                 Custom Upload
@@ -33,16 +27,9 @@
     </section>
 
     <a href="/">
-        <button id="backButton" data-aos="fade-left"
-        data-aos-duration="3000"
-        data-aos-offset="500"
-        data-aos-easing="ease-in-out"
-        data-aos-delay="50">
+        <button id="backButton">
          &#8592;
         </button>
     </a>
-    <script>
-        AOS.init();
-    </script>
 </body>
 </html>
